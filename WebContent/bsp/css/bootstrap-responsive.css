@@ -1227,6 +1227,13 @@
   border: 1px solid #d6e9c6;
 }
 
+.tab-content>.active, .pill-content>.active {
+display: block;
+}
+.pill-content>.pill-pane {
+display: none;
+}
+
 /* Wrapper for page content to push down footer ==============================*/
       #wrap {
         min-height: 100%;
